@@ -4,27 +4,31 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Merriweather', serif;
+    
 }
 
 img{
-    width: 100%;
+    width: 100% auto;
     height: auto;
      
 }
 
 /* main div start */
 .main-div{
+
+    width: 1320px;
     
-    max-width: 1320px;
     
 }
 
+.header-div{
+    
+}
 
 .header-text *{
     text-align: center;
     color: #070101;
-    
+    font-family: 'Merriweather', serif;
     
     
     
@@ -54,7 +58,47 @@ img{
     height: 600px;
     padding: 170px;
     
+}
+
+/* body start */
+.body-sub{
+    padding-top: 100px;
+    align-items: center;
     
+}
+.body-sub .info *{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+.body-sub .info{
     
+}
+
+.body-sub .info h1{
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.body-sub .info p{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.body-sub .info h3{
+    color:#070211;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.picture{
+    background-image: url(/images/year.png);
+    width: 805px;
+    height: 600px;
+    background-repeat: no-repeat;
 
 }
