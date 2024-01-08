@@ -102,3 +102,63 @@ img{
     background-repeat: no-repeat;
 
 }
+
+/* bodu sub end */
+
+/* section start */
+.welcome{
+    background-image: url(/images/vectorrr.png);
+    height: 600px;
+
+}
+
+.welcome-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.welcome .left{
+
+}
+
+.welcome-item .left h1{
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    padding: 0 150px;
+    letter-spacing: 7px;
+    
+
+}
+
+.welcome-item .left p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 30px;
+    padding: 0 150px;
+    margin: 30px 0;
+
+}
+
+.welcome-item .left .all-button{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #F00;
+    border: none;
+    
+    
+
+}
+
+
+
+.welcome .right{
+    
+}
