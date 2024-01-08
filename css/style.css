@@ -1,0 +1,11 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* main div start */
+.main-div{
+    width: 1500px;
+    height: auto;
+    background-color: antiquewhite;
+}
