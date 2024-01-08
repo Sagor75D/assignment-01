@@ -248,3 +248,80 @@ img{
 }
 
 /* plane section end */
+
+/* best offer start */
+.coming-soon{
+    /* background-color: beige; */
+    width: 1320px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.coming-soon .li-left *{
+    margin-bottom: 20px;
+}
+
+.coming-soon .li-left h5{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.coming-soon .li-left h1{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    
+}
+
+.coming-soon .li-left p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.coming-soon .li-mid{
+    
+    height: 350px;
+    
+    
+}
+
+.coming-soon .li-mid img{
+    border: 10px solid #F00;
+    border-radius: 100%;
+    padding: 20px;
+    width: 350px;
+    height: 350px;
+    margin: 0 100px;
+    
+}
+.li-right *{
+    float: left;
+    margin-bottom: 20px;
+    
+}
+
+.li-right{
+    padding-top: 70px;
+}
+
+.li-right h1{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.li-right p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
