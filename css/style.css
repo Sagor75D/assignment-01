@@ -3,9 +3,58 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Merriweather', serif;
+}
+
+img{
+    width: 100%;
+    height: auto;
+     
+}
+
 /* main div start */
 .main-div{
-    width: 1500px;
-    height: auto;
-    background-color: antiquewhite;
+    
+    max-width: 1320px;
+    
+}
+
+
+.header-text *{
+    text-align: center;
+    color: #070101;
+    
+    
+    
+    
+    
+}
+.header-con .header-text{
+
+}
+
+.header-text h4{
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 90px;
+
+
+
+}
+
+.header-text h1{
+    font-size: 72px;
+}
+
+.header-div .header-con{
+    
+    background-image: url(/images/banar.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    padding: 170px;
+    
+    
+    
+
 }
