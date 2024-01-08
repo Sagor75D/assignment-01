@@ -327,11 +327,22 @@ img{
     font-weight: 400;
 }
 
+/* best offer end */
+
+.ari-top *{
+    text-align: center;
+    align-items: center;
+}
+
 .ari .ari-top h3{
     color: #070211;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
+    font-weight: 500;
     
+}
+
+.ari .ari-top h1{
 
 }
 
