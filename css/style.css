@@ -409,7 +409,6 @@ img {
 .galary {
     width: 1320px;
     height: 1050px;
-    background-color: antiquewhite;
     margin: 100px 0;
 
 }
@@ -554,17 +553,12 @@ img {
 /* subcribe end */
 
 /* footer start */
-/* .footer-main {
-    width: 1600px;
-    height: 600px;
-    background-color: #070211;
-    margin: 100px 0;
-} */
+
 
 .footer-child {
     width: 1320px;
     height: 600px;
-    background-color: rgb(76, 74, 72);
+    background-color: #070211;
     margin: 100px 0;
 
 }
@@ -619,7 +613,6 @@ img {
 }
 
 .social-media-icon {
-    /* margin: 50px 0; */
     display: flex;
     justify-content: center;
 
@@ -627,10 +620,8 @@ img {
 
 .footer-child .social-media-icon * {
     margin: 20px;
-    /* margin-left: 200px; */
     width: 64px;
     height: 64px;
-    /* align-content: center; */
     justify-content: center;
     margin-right: 0;
 
