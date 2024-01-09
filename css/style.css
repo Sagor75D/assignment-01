@@ -539,11 +539,17 @@ img {
     margin: 0;
     border: none;
     border-radius: 0 50px 50px 0;
-
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-weight: 600;
+    transition: .6s;
+
+}
+
+.btn-sub:hover{
+    font-size: 28px;
+    background-color: rgb(193, 8, 8);
 
 }
 
