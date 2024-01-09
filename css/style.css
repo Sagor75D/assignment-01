@@ -485,7 +485,7 @@ img{
 
 .subcribe{
     width: 1320px;
-    height: 450px;
+    height: 500px;
     background: rgba(255, 0, 0, 0.05);
     text-align: center;
 
@@ -526,9 +526,14 @@ img{
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 400;
-
+    
 }
 
-
+.subcribe .subcribe-button{
+    width: 300px;
+    height: 50px;
+    background-color: #F00;
+    
+}
 
 /* subcribe end */
