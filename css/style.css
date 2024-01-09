@@ -34,7 +34,7 @@ img {
 
 .header-text * {
     text-align: center;
-    color: #070101;
+    color: #000;
     font-family: 'Merriweather', serif;
 
 
@@ -58,13 +58,14 @@ img {
 }
 
 .header-div .header-con {
-
     background-image: url(../images/banar.png);
     background-repeat: no-repeat;
     height: 600px;
     padding: 170px;
 
 }
+
+
 
 /* body start */
 .body-sub {
