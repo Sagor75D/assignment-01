@@ -113,7 +113,7 @@ img {
 
 /* section start */
 .welcome {
-    background-image: url(/images/vectorrr.png);
+    background-image: url(../images/vectorrr.png);
     height: 600px;
 
 }
