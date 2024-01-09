@@ -251,7 +251,7 @@ img{
 
 /* best offer start */
 .coming-soon{
-    /* background-color: beige; */
+    background-color: beige;
     width: 1320px;
     height: 350px;
     display: flex;
@@ -284,11 +284,11 @@ img{
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
+    line-height: 32px;
     
 }
 
 .coming-soon .li-mid{
-    
     height: 350px;
     
     
@@ -329,6 +329,15 @@ img{
 
 /* best offer end */
 
+/* Holidays Sale 50% start */
+
+.ari{
+    width: 1320px;
+    height: 800px;
+    margin: 60px 0;
+    background-color: blanchedalmond;
+}
+
 .ari-top *{
     text-align: center;
     align-items: center;
@@ -343,6 +352,58 @@ img{
 }
 
 .ari .ari-top h1{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 20px 0;
 
 }
 
+.ari .ari-top span{
+    color: #F00;
+    font-size: 72px;
+    font-weight: 900;
+
+}
+.ari .ari-top p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    /* padding: 0 200px; */
+    margin: 0 200px;
+    margin-bottom: 50px;
+    
+}
+
+.ari .ari-butt{
+    display: flex;
+    
+}
+
+.ari .ari-butt .ph3:last-child{
+    margin-right: 0;
+    
+}
+
+.ari .ari-butt .ph2:nth-child(2) {
+    margin-right: 0;
+    
+}
+
+.ari .ari-butt .ph1{
+    width: 450px;
+    height: 450px;
+    
+}
+
+.ari .ari-butt .ph3{
+
+}
+
+.ari .bg{
+    background-color: #F00;
+    width: 1320px;
+    height: 130px;
+}
