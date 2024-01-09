@@ -4,7 +4,10 @@
     box-sizing: border-box;
 }
 
-body {}
+body { 
+    /* width: 1600px; */
+    
+}
 
 img {
     width: 100% auto;
@@ -56,7 +59,7 @@ img {
 
 .header-div .header-con {
 
-    background-image: url(/images/banar.png);
+    background-image: url(../images/banar.png);
     background-repeat: no-repeat;
     height: 600px;
     padding: 170px;
@@ -509,24 +512,42 @@ img {
     padding: 0 200px;
 }
 
+.form {
+    display: flex;
+    justify-content: center;
+}
+
 .subcribe .form input {
-    width: 550px;
+    width: 40%;
     height: 50px;
     border: none;
-    border-radius: 12px;
+    border-radius: 50px 0 0 50px;
     border-style: none;
-    padding: 10px;
+    padding-left: 20px;
     color: rgba(7, 2, 17, 0.30);
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 400;
+    margin: 0;
+
 
 }
 
-.subcribe .subcribe-button {
-    width: 300px;
+
+.btn-sub {
+    width: 20%;
     height: 50px;
+    align-content: start;
     /* background-color: #F00; */
+    margin: 0;
+    border: none;
+    /* border-end-end-radius: 50%; */
+    border-radius: 0 50px 50px 0;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
 
 }
 
@@ -540,7 +561,7 @@ img {
     margin: 100px 0;
 } */
 
-.footer-child{
+.footer-child {
     width: 1320px;
     height: 600px;
     background-color: rgb(76, 74, 72);
@@ -561,16 +582,16 @@ img {
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
-    
+
 }
 
-.div1 .location{
+.div1 .location {
     margin-top: 50px;
     margin-bottom: 30px;
     text-align: left;
     margin-left: 0;
-    
-    
+
+
 }
 
 .div1 .contact * {
@@ -578,13 +599,13 @@ img {
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
-    
-    
+
+
 }
 
 
 
-.div1 .contact{
+.div1 .contact {
     margin-top: 50px;
     margin-bottom: 30px;
     margin-right: 100px;
@@ -593,37 +614,44 @@ img {
 
 }
 
-.div1:first-child{
+.div1:first-child {
     margin-left: 0;
 }
 
-.social-media-icon{
-    margin: 50px 0;
-    
+.social-media-icon {
+    /* margin: 50px 0; */
+    display: flex;
+    justify-content: center;
+
 }
 
-.footer-child .social-media-icon *{
-   margin: 20px;
+.footer-child .social-media-icon * {
+    margin: 20px;
     /* margin-left: 200px; */
     width: 64px;
     height: 64px;
     /* align-content: center; */
     justify-content: center;
     margin-right: 0;
-    
+
 
 }
 
-.div3{
+.div3 {
     display: flex;
     margin: 100px 0;
 }
 
-.div3 *{
+.div3 * {
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
+}
+
+.btn-sub {
+    color: #fff;
+    background-color: #F00;
 }
 
 /* footer end */
