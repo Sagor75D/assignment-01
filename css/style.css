@@ -553,6 +553,7 @@ img {
     display: flex;
     align-items: center;
     justify-items: center;
+    margin: 50px 0;
 }
 
 .footer-child .div1 p {
@@ -596,16 +597,32 @@ img {
     margin-left: 0;
 }
 
+.div2{
+    margin: 50px 0;
+}
+
 .footer-child .div2 *{
    margin: 20px;
-    /* margin-left: 200px; */
+    margin-left: 200px;
     width: 64px;
     height: 64px;
     align-content: center;
     justify-content: center;
     margin-right: 0;
-    margin-left: 200px;
+    
 
+}
+
+.div3{
+    display: flex;
+    margin: 100px 0;
+}
+
+.div3 *{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 /* footer end */
