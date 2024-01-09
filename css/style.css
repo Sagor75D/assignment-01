@@ -597,16 +597,17 @@ img {
     margin-left: 0;
 }
 
-.div2{
+.social-media-icon{
     margin: 50px 0;
+    
 }
 
-.footer-child .div2 *{
+.footer-child .social-media-icon *{
    margin: 20px;
-    margin-left: 200px;
+    /* margin-left: 200px; */
     width: 64px;
     height: 64px;
-    align-content: center;
+    /* align-content: center; */
     justify-content: center;
     margin-right: 0;
     
